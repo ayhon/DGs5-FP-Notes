@@ -1,0 +1,157 @@
+[0m2021.11.30 21:54:15 INFO  Started: Metals version 0.10.9 in workspace '/home/ayhon/.local/share/data/Desktop/Universidad/Tercero/1º Cuatrimestre/FP Functional Programming/Notes/scala3' for client Visual Studio Code 1.62.3.[0m
+[0m2021.11.30 21:54:16 INFO  time: initialize in 0.47s[0m
+[0m2021.11.30 21:54:16 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.30 21:54:19 INFO  running '/home/ayhon/.cache/coursier/jvm/adopt@1.8.0-292/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals226923599222401742/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.11.30 21:54:19 WARN  no build target for: /home/ayhon/.local/share/data/Desktop/Universidad/Tercero/1º Cuatrimestre/FP Functional Programming/Notes/scala3/project/metals.sbt[0m
+[0m2021.11.30 21:54:19 WARN  no build target for: /home/ayhon/.local/share/data/Desktop/Universidad/Tercero/1º Cuatrimestre/FP Functional Programming/Notes/scala3/project/project/metals.sbt[0m
+[0m2021.11.30 21:54:19 INFO  skipping build import with status 'Started'[0m
+[0m2021.11.30 21:54:20 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.30 21:54:22 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 1.8.0_292)[0m
+Nov 30, 2021 9:54:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[31merror[39m: repeat-until.worksheet.sc:8:18: identifier expected but => found
+    var command: => Unit = ()
+                 ^^
+[0m2021.11.30 21:54:27 INFO  time: code lens generation in 3.52s[0m
+[0m2021.11.30 21:54:27 INFO  time: code lens generation in 3.52s[0m
+[0m2021.11.30 21:54:27 INFO  time: code lens generation in 6.62s[0m
+[0m2021.11.30 21:54:27 INFO  time: code lens generation in 6.62s[0m
+[0m2021.11.30 21:54:27 INFO  time: code lens generation in 9.25s[0m
+[0m2021.11.30 21:54:27 INFO  time: code lens generation in 9.26s[0m
+[0m2021.11.30 21:54:29 INFO  [info] loading settings for project scala3-build-build from metals.sbt ...[0m
+[0m2021.11.30 21:54:30 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.30 21:54:30 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 13s[0m
+[0m2021.11.30 21:54:31 INFO  [info] loading project definition from /home/ayhon/.local/share/data/Desktop/Universidad/Tercero/1º Cuatrimestre/FP Functional Programming/Notes/scala3/project/project[0m
+[0m2021.11.30 21:54:34 INFO  [info] loading settings for project scala3-build from metals.sbt ...[0m
+[0m2021.11.30 21:54:34 INFO  [info] loading project definition from /home/ayhon/.local/share/data/Desktop/Universidad/Tercero/1º Cuatrimestre/FP Functional Programming/Notes/scala3/project[0m
+[0m2021.11.30 21:54:37 INFO  [success] Generated .bloop/scala3-build.json[0m
+[0m2021.11.30 21:54:37 INFO  [success] Total time: 3 s, completed Nov 30, 2021 9:54:37 PM[0m
+[0m2021.11.30 21:54:39 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.11.30 21:54:39 INFO  [info] set current project to scala3 (in build file:/home/ayhon/.local/share/data/Desktop/Universidad/Tercero/1º%20Cuatrimestre/FP%20Functional%20Programming/Notes/scala3/)[0m
+[0m2021.11.30 21:54:45 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.11.30 21:54:45 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.11.30 21:54:45 INFO  [success] Total time: 6 s, completed Nov 30, 2021 9:54:45 PM[0m
+[0m2021.11.30 21:54:46 INFO  time: ran 'sbt bloopInstall' in 26s[0m
+[0m2021.11.30 21:54:46 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5698375804772521244/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/home/ayhon/.local/share/data/Desktop/Universidad/Tercero/1º Cuatrimestre/FP Functional Programming/Notes/scala3/.bloop'...
+[0m[32m[D][0m Loading project from '/home/ayhon/.local/share/data/Desktop/Universidad/Tercero/1º Cuatrimestre/FP Functional Programming/Notes/scala3/.bloop/root-test.json'
+[0m[32m[D][0m Loading project from '/home/ayhon/.local/share/data/Desktop/Universidad/Tercero/1º Cuatrimestre/FP Functional Programming/Notes/scala3/.bloop/root.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.1.0.
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.1.0/scala3-compiler_3-3.1.0.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.1.0/scala3-interfaces-3.1.0.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.1.0/scala3-library_3-3.1.0.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.1.0/scala3-tasty-inspector_3-3.1.0.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.1.0/scaladoc_3-3.1.0.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.1.0/tasty-core_3-3.1.0.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+[0m[32m[D][0m   => /home/ayhon/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Missing analysis file for project 'root'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5698375804772521244/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5698375804772521244/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.30 21:54:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ayhon/.cache/metals/bsp.trace.json[0m
+[0m2021.11.30 21:54:46 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1908976458552780291/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1908976458552780291/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1908976458552780291/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.30 21:54:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ayhon/.cache/metals/bsp.trace.json[0m
+[0m2021.11.30 21:54:46 INFO  time: Connected to build server in 0.48s[0m
+[0m2021.11.30 21:54:46 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.11.30 21:54:49 INFO  time: indexed workspace in 3.02s[0m
+[31merror[39m: repeat-until.worksheet.sc:8:18: identifier expected but => found
+    var command: => Unit = ()
+                 ^^
+[0m2021.11.30 21:54:50 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.30 21:54:50 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.98s[0m
+[31merror[39m: repeat-until.worksheet.sc:11:35: 
+Overloaded or recursive method until needs return type
+        if condition then () else this until condition
+                                  ^
+[0m2021.11.30 21:55:03 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.65s[0m
+[31merror[39m: repeat-until.worksheet.sc:11:35: 
+Overloaded or recursive method until needs return type
+        if condition then () else this until condition
+                                  ^
+[0m2021.11.30 21:55:03 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.33s[0m
+[31merror[39m: repeat-until.worksheet.sc:11:35: 
+Overloaded or recursive method until needs return type
+        if condition then () else this until condition
+                                  ^
+[0m2021.11.30 21:55:04 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.26s[0m
+[31merror[39m: repeat-until.worksheet.sc:11:35: 
+Overloaded or recursive method until needs return type
+        if condition then () else this until condition
+                                  ^
+[0m2021.11.30 21:55:05 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.31s[0m
+[0m2021.11.30 21:56:38 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 1.19s[0m
+[0m2021.11.30 21:56:39 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.74s[0m
+[0m2021.11.30 21:56:39 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.66s[0m
+[0m2021.11.30 21:56:54 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.63s[0m
+[0m2021.11.30 21:56:54 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.58s[0m
+[0m2021.11.30 21:56:55 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.53s[0m
+[0m2021.11.30 21:56:55 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.43s[0m
+[0m2021.11.30 21:57:03 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.55s[0m
+[0m2021.11.30 21:57:04 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.46s[0m
+[0m2021.11.30 21:57:04 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.48s[0m
+[0m2021.11.30 21:57:05 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.47s[0m
+[0m2021.11.30 21:57:11 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.43s[0m
+[0m2021.11.30 21:57:11 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.37s[0m
+[0m2021.11.30 21:57:20 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.42s[0m
+[0m2021.11.30 21:57:20 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.42s[0m
+[0m2021.11.30 21:57:21 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.37s[0m
+[0m2021.11.30 21:57:29 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.33s[0m
+[0m2021.11.30 21:57:29 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.32s[0m
+[0m2021.11.30 21:58:06 INFO  time: evaluated worksheet 'repeat-until.worksheet.sc' in 0.37s[0m
+[0m2021.11.30 21:58:07 INFO  shutting down Metals[0m
+[0m2021.11.30 21:58:07 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.11.30 21:58:06 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...

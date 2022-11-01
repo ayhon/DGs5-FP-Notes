@@ -1,0 +1,4 @@
+[debug] [root-test] Classpath dependencies List()
+[debug] [root-test] Dependencies from configurations List(root)
+[debug] Bloop wrote the configuration of project 'root-test' to '/home/ayhon/.local/share/data/Desktop/Universidad/Tercero/1º Cuatrimestre/FP Functional Programming/Notes/scala3/.bloop/root-test.json'
+[success] Generated .bloop/root-test.json
